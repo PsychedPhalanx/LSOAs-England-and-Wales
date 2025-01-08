@@ -1,8 +1,11 @@
-# LSOAs-England-and-Wales
-Exploring Deprivation and Ethnic Diversity in England and Wales: An LSOA-Level Analysis
+# Exploring Deprivation and Ethnic Diversity in England and Wales: An LSOA-Level Analysis
+*This project explores the relationships between deprivation, ethnicity, geography and rurality vs urbanity at the Lower Super Output Area (LSOA) level in England and Wales using Census 2021 data.*
 
-
-**Please note that this project is current unfinished, and while a majority of the data analysis has been conducted and is visible within the Jupyter notebook, an explanation of the code is not present. Very soon, this .readme will contain a detailed description of the aims and motivations of this project, as well as a thorough explanation of the results**
+1. [**Introduction**](#1.-Introduction)
+2. [**Datasets Used**](#2.-Datasets-Used)
+3. [**Key Findings**](#3.-Key-Findings)
+   - [**Deprivation**](Deprivation)   
+   - [**Ethnicity**](Ethnicity)
 
 1. [**Introduction**](#1.-Introduction)  
    - [**Overview and Objectives**](#Overview-and-Objectives)  
@@ -19,4 +22,4 @@ Exploring Deprivation and Ethnic Diversity in England and Wales: An LSOA-Level A
    - [4B **Intersection Between Rurality, Ethnicity and Deprivation**](#4B-Intersection-Between-Rurality,-Ethnicity-and-Deprivation)  
 5. [**Conclusion**](#5.-Conclusion)  
    - [**Key Findings**](#Key-Findings)  
-   - [**Implications and Future Directions**](#Implications-and-Future-Directions)  
+   - [**Implications and Future Directions**](#Implications-and-Future-Directions)
