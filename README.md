@@ -13,17 +13,6 @@
 5. [**References**](#5-references)
 
 ## 1. **Introduction**
-# My Analysis
-
-This is a statement citing a source. Refer to [1](#1) for details.
-
-## Some Other Section
-
-Additional content here.
-
-## References
-
-1. <a name="1"></a> Author Name, *Book Title*, Publisher, Year.
 
 ## 2. **Datasets Used**
 
