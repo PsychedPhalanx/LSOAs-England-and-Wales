@@ -44,6 +44,4 @@ Lower layer Super Output Areas (LSOAs) are small geographical units used for sta
 ## 5. **Conclusion**
 
 ## 6. **References**
-
-## References
 **[1]** Yes
