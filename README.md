@@ -26,7 +26,7 @@
 ## 3. **Introduction**
 
 ### **What Are LSOAs?**
-Lower layer Super Output Areas (LSOAs) are small geographical units within England and Wales, created following the Census 2001. There are a total of 33,755 LSOAs in England and 1,917 in Wales, giving 35,672 in total.
+Lower layer Super Output Areas (LSOAs) are small geographical units used for statistical purposes in England and Wales. LSOAs were introduced following the Census 2001 to mitigate the challenges posed to statistical analysis using historically-used geographical units, e.g., greatly varying population numbers, as in the case of Wards, or lacking coverage of the entirety England and Wales, as in the case of Parishes. In contrast, 
 ### **Understanding Deprivation**
 
 ### **Ethnicities of England and Wales**
