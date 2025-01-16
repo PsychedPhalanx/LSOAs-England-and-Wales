@@ -3,24 +3,29 @@
 
 ## Contents
 1. [**Aims**](#1-aims)
-2. [**Introduction**](#2-introduction)
+2. [**Datasets Used**](#2-datasets-used)
+3. [**Introduction**](#3-introduction)
    - [**What Are LSOAs?**](#what-are-lsoas?)
    - [**Understanding Deprivation**](#understanding-deprivation)
+   - [**Ethnicity**](#ethnicity)
    - [**Rurality and Its Impact**](#rurality-and-its-impact)
-3. [**Key Findings**](#3-key-findings)
+4. [**Key Findings**](#4-key-findings)
    - [**Deprivation**](#deprivation)
    - [**Ethnicity**](#ethnicity)
    - [**Rurality vs Urbanity**](#rurality-vs-urbanity)
-4. [**Conclusion**](#4-conclusion)
-5. [**References**](#5-references)
+5. [**Conclusion**](#5-conclusion)
+6. [**References**](#6-references)
 
 ## 1. **Aims**
 - To conduct geospatial analysis, identifying regions of England and Wales with (a) high levels of deprivation and (b) high concentrations of ethnic minorities.
 - To assess the relationship between ethnic demographics and levels of deprivation.
 - To examine the impact of rurality on (a) deprivation levels and (b) concentrations of ethnic minorities.
-## 2. **Introduction**
 
-## 3. **Key Findings**
+## 2. **Datasets Used**
+
+## 3. **Introduction**
+
+## 4. **Key Findings**
 
 ### **Deprivation**
 
@@ -28,7 +33,7 @@
 
 ### **Rurality vs Urbanity**
 
-## 4. **Conclusion**
+## 5. **Conclusion**
 
-## 5. **References**
+## 6. **References**
 
