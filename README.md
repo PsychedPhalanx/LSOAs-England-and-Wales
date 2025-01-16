@@ -12,7 +12,9 @@
 5. [**References**](#5-references)
 
 ## 1. **Aims**
-- To conduct
+- To conduct geospatial analysis, identifying regions of England and Wales with (a) high levels of deprivation and (b) high concentrations of ethnic minorities.
+- To assess the relationship between ethnic demographics and levels of deprivation.
+- To examine the impact of rurality on (a) deprivation levels and (b) concentrations of ethnic minorities.
 ## 2. **Introduction**
 
 ## 3. **Key Findings**
