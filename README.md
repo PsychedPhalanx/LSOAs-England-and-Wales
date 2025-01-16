@@ -5,7 +5,7 @@
 1. [**Aims**](#1-aims)
 2. [**Datasets Used**](#2-datasets-used)
 3. [**Introduction**](#3-introduction)
-   - [**What Are LSOAs?**](#what-are-lsoas?)
+   - [**What Are LSOAs?**](#what-are-lsoas)
    - [**Understanding Deprivation**](#understanding-deprivation)
    - [**Ethnicities of England and Wales**](#ethnicities-of-england-and-wales)
    - [**Rurality & Its Impact**](#rurality-&-its-impact)
