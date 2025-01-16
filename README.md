@@ -14,7 +14,7 @@
    - [**Ethnicity**](#ethnicity)
    - [**Rurality vs Urbanity**](#rurality-vs-urbanity)
 5. [**Conclusion**](#5-conclusion)
-6. [**References**](#6-references)
+6. [**References**](#references)
 
 ## 1. **Aims**
 - To conduct geospatial analysis, identifying regions of England and Wales with (a) high levels of deprivation and (b) high concentrations of ethnic minorities.
@@ -26,7 +26,8 @@
 ## 3. **Introduction**
 
 ### **What Are LSOAs?**
-Lower layer Super Output Areas (LSOAs) are small geographical units used for statistical purposes in England and Wales. LSOAs were introduced following the Census 2001 to mitigate the challenges posed to statistical analysis using historically-used geographical units, e.g., greatly varying population numbers, as in the case of wards, or lacking coverage of the entirety England and Wales, as in the case of parishes. In contrast, LSOAs are [1](#ref-1).
+Lower layer Super Output Areas (LSOAs) are small geographical units used for statistical purposes in England and Wales. LSOAs were introduced following the Census 2001 to mitigate the challenges posed to statistical analysis using historically-used geographical units, e.g., greatly varying population numbers, as in the case of wards, or lacking coverage of the entirety England and Wales, as in the case of parishes. In contrast, LSOAs are designed to be consistent in size and coverage [source](#references).
+
 ### **Understanding Deprivation**
 
 ### **Ethnicities of England and Wales**
@@ -44,4 +45,4 @@ Lower layer Super Output Areas (LSOAs) are small geographical units used for sta
 ## 5. **Conclusion**
 
 ## 6. **References**
-**[1]** Yes
+[source]: *Your reference text here, e.g., author name, book, etc.*
