@@ -26,7 +26,7 @@
 ## 3. **Introduction**
 
 ### **What Are LSOAs?**
-Lower layer Super Output Areas (LSOAs) are small geographical units used for statistical purposes in England and Wales. LSOAs were introduced following the Census 2001 to mitigate the challenges posed to statistical analysis using historically-used geographical units, e.g., greatly varying population numbers, as in the case of wards, or lacking coverage of the entirety England and Wales, as in the case of parishes. In contrast, LSOAs are designed to be consistent in size and coverage [source](#references).
+Lower layer Super Output Areas (LSOAs) are small geographical units used for statistical purposes in England and Wales. LSOAs were introduced following the Census 2001 to mitigate the challenges posed to statistical analysis using historically-used geographical units, e.g., greatly varying population numbers, as in the case of wards, or lacking coverage of the entirety England and Wales, as in the case of parishes. In contrast, LSOAs are designed to be consistent in size and coverage [1](1).
 
 ### **Understanding Deprivation**
 
@@ -45,4 +45,4 @@ Lower layer Super Output Areas (LSOAs) are small geographical units used for sta
 ## 5. **Conclusion**
 
 ## 6. **References**
-[source]: *Your reference text here, e.g., author name, book, etc.*
+[1] abc
