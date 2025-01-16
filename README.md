@@ -4,6 +4,9 @@
 ## Contents
 1. [**Aims**](#1-aims)
 2. [**Introduction**](#2-introduction)
+   - [**What Are LSOAs?**](#what-are-lsoas?)
+   - [**Understanding Deprivation**](#understanding-deprivation)
+   - [**Rurality and Its Impact**](#rurality-and-its-impact)
 3. [**Key Findings**](#3-key-findings)
    - [**Deprivation**](#deprivation)
    - [**Ethnicity**](#ethnicity)
