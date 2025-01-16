@@ -7,8 +7,8 @@
 3. [**Introduction**](#3-introduction)
    - [**What Are LSOAs?**](#what-are-lsoas?)
    - [**Understanding Deprivation**](#understanding-deprivation)
-   - [**Ethnicity**](#ethnicity)
-   - [**Rurality and Its Impact**](#rurality-and-its-impact)
+   - [**Ethnicities of England and Wales**](#ethnicities-of-england-and-wales)
+   - [**Rurality & Its Impact**](#rurality-&-its-impact)
 4. [**Key Findings**](#4-key-findings)
    - [**Deprivation**](#deprivation)
    - [**Ethnicity**](#ethnicity)
@@ -24,6 +24,14 @@
 ## 2. **Datasets Used**
 
 ## 3. **Introduction**
+
+### **What Are LSOAs?**
+
+### **Understanding Deprivation**
+
+### **Ethnicities of England and Wales**
+
+### **Rurality & Its Impact**
 
 ## 4. **Key Findings**
 
