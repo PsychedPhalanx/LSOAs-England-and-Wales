@@ -26,7 +26,11 @@
 ## 3. **Introduction**
 
 ### **What Are LSOAs?**
-Lower layer Super Output Areas (LSOAs) are small geographical units used for statistical purposes in England and Wales. LSOAs were introduced following the Census 2001 to mitigate the challenges posed to statistical analysis using historically-used geographical units, e.g., greatly varying population numbers, as in the case of wards, or lacking coverage of the entirety England and Wales, as in the case of parishes. In contrast, LSOAs are designed to be consistent in size and coverage [1](https://www.hulljsna.com/glossary/lsoa/)
+Lower layer Super Output Areas (LSOAs) are small geographical units used for statistical purposes in England and Wales. LSOAs were introduced following the Census 2001 to mitigate the challenges posed to statistical analysis using historically-used geographical units: greatly varying population sizes, as in the case of wards; lacking coverage of the entirety of England and Wales, as in the case of parishes; and boundaries subject to change, as in the case of wards, parishes, local authorities and parliamentary constituencies. 
+
+By contrast, LSOAs have relatively uniform population sizes, cover the whole of England and Wales and have stable boundaries. LSOAs comprise between 400 and 1,200 households and have a usually resident population between 1,000 and 3,000 persons. There are 33,755 LSOAs in England and 1,917 in Wales.
+
+These properties make LSOAs ideal for statistical analysis. Their relatively small size allows for the identification of localised trends that may otherwise be obscurred in larger geographical units. Kensington and Chelsea, for example, known for its affluence, ranks 101st out of 345 local authorities in terms of deprivation, with 1st being the most deprived. Kensington and Chelsea is composed of 
 
 ### **Understanding Deprivation**
 
