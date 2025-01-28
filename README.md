@@ -46,7 +46,7 @@ The ONS considers entire households to be deprived based on four dimensions:
 - Housing
    - A household is classified as deprived in the housing dimension if the household's accommodation is either overcrowded, in a shared dwelling, or has no central heating.
 
-The ONS data only gives the number of households deprived in 0, 1, 2, 3 or 4 dimensions per LSOA, but not which specific dimension(s) a households satisfies. This restricts our ability to understand which factors are driving deprivation in each LSOA. As a result, our analysis can identify LSOAs or local authorities with high levels of deprivation but cannot provide insights into which dimensions of deprivation (education, employment, health or housing) are more prevalent.
+The ONS data only gives the number of households deprived in 0, 1, 2, 3 or 4 dimensions per LSOA, but not which specific dimension(s) a household is deprived in. This restricts our ability to understand which factors are driving deprivation in each LSOA. As a result, our analysis can identify LSOAs or local authorities with high levels of deprivation but cannot provide insights into which dimensions of deprivation (education, employment, health or housing) are most prevalent. A more complete analysis ought to collate data on each of these four dimensions seperately, in order to identify LSOAs underperforming in each dimension.
  
 ### **Ethnicities of England and Wales**
 
