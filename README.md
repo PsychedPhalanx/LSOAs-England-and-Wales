@@ -102,7 +102,7 @@ This analysis only considers the five broad ethnic groups - White, Mixed, Asian,
 
 [2] Oxford Consultants for Social Inclusion (OCSI) (2019). *LSOAs, LEPs, and Lookups: A Beginner’s Guide to Statistical Geographies*. Available at: [https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/](https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/)
 
-[3] Royal Borough of Kensington and Chelsea (no date). *Demographics and Child Deprivation*. Available at: [https://www.rbkc.gov.uk/pdf/Demographics_childdeprivation.pdf](https://www.rbkc.gov.uk/pdf/Demographics_childdeprivation.pdf)
+[3] Royal Borough of Kensington and Chelsea (2007). *Demographics and Child Deprivation*. Available at: [https://www.rbkc.gov.uk/pdf/Demographics_childdeprivation.pdf](https://www.rbkc.gov.uk/pdf/Demographics_childdeprivation.pdf)
 
 [4] Office for National Statistics (ONS) (2021). *Household Deprivation - Census 2021 Variables by Topic*. Available at: [https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/demographyvariablescensus2021/householddeprivation](https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/demographyvariablescensus2021/householddeprivation)
 
