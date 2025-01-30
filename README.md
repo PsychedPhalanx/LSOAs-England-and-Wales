@@ -84,6 +84,19 @@ The Census 2021 provided a range of ethnic categories for individuals to choose 
 
 This analysis only considers the five broad ethnic groups - White, Mixed, Asian, Black, and Other - without accounting for their subgroups. This simplification greatly limits the efficacy of our analysis as disparities in outcomes exist within the broad groups. Chinese students, for instance, are known to achieve higher academic outcomes than all other ethnicities, including even White British students, whilst Pakistani and Bangladeshi students - both within the same, broader Asian group - typically have lower levels of educational attainment. In the Black ethnic group, individuals of Black African descent tend to experience better educational and employment outcomes than those of Black Caribbean descent. A similar situation also holds for the White ethnic group, where Gypsy or Irish Traveller students experience significantly lower educational attainment compared to their White British peers. A more thorough analysis would disaggregate these broad ethnic categories into their subgroups, thereby allowing for more targeted interventions and a clearer picture of the underlying dynamics shaping outcomes across ethnic groups. [[6]](https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/articles/ethnicgroupdifferencesinhealthemploymenteducationandhousingshowninenglandandwalescensus2021/2023-03-15) [[7]](https://doi.org/10.1080/1369183X.2018.1539241) [[8]](https://assets.publishing.service.gov.uk/media/5a7a4459ed915d1a6421c3e4/DFE-RR043.pdf)
 
+As per the Census 2021, there are a total of 59,597,576 total residents in England and Wales.
+
+| Ethnicity | Number of Residents | Percentage of Total Population |
+|-----------|--------------------:|------------------------------:|
+| Asian     | 5,515,544          | 9.25%                         |
+| Black     | 2,409,211          | 4.04%                         |
+| Mixed     | 1,717,884          | 2.88%                         |
+| Other     | 1,255,470          | 2.11%                         |
+| White     | 48,699,467         | 81.71%                        |
+
+
+![Ethnicity Population](./Images/ethnicity_population.png)
+
 ### **Rurality and Its Impact**
 
 ## 4. **Key Findings**
