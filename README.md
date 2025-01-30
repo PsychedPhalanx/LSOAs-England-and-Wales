@@ -49,7 +49,6 @@ The ONS considers entire households to be deprived based on four dimensions:
 - Housing
    - A household is classified as deprived in the housing dimension if the household's accommodation is either overcrowded, in a shared dwelling, or has no central heating. [[4]](https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/demographyvariablescensus2021/householddeprivation)
 
-
 The ONS data only gives the number of households deprived in 0, 1, 2, 3 or 4 dimensions per LSOA, but not which specific dimension(s) a household is deprived in. This restricts our ability to understand which factors are driving deprivation in each LSOA. As a result, our analysis can identify LSOAs or local authorities with high levels of deprivation but cannot provide insights into which dimensions of deprivation (education, employment, health or housing) are most prevalent. A more complete analysis ought to collate data on each of these four dimensions seperately, in order to identify LSOAs underperforming in each dimension.
 
 ### **Ethnicities of England and Wales**
@@ -82,7 +81,7 @@ The Census 2021 provided a range of ethnic categories for individuals to choose 
     - Arab
     - Any other ethnic group
 
-This analysis only considers the five broad ethnic groups - White, Mixed, Asian, Black, and Other - without accounting for their subgroups. This simplification greatly limits the efficacy of our analysis as disparities in outcomes exist within the broad groups. Chinese students, for instance, are known to achieve higher academic outcomes than all other ethnicities, including even White British students, whilst Pakistani and Bangladeshi students - both within the same, broader Asian group - typically have lower levels of educational attainment. In the Black ethnic group, individuals of Black African descent tend to experience better educational and employment outcomes than those of Black Caribbean descent. A similar situation also holds for the White ethnic group, where Gypsy or Irish Traveller students experience significantly lower educational attainment compared to their White British peers. A more thorough analysis would disaggregate these broad ethnic categories into their subgroups, thereby allowing for more targeted interventions and a clearer picture of the underlying dynamics shaping outcomes across ethnic groups. [[6]](https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/articles/ethnicgroupdifferencesinhealthemploymenteducationandhousingshowninenglandandwalescensus2021/2023-03-15) [[7]](https://doi.org/10.1080/1369183X.2018.1539241) [[8]](https://assets.publishing.service.gov.uk/media/5a7a4459ed915d1a6421c3e4/DFE-RR043.pdf)
+This analysis only considers the five broad ethnic groups - White, Mixed, Asian, Black, and Other - without accounting for their subgroups. This simplification greatly limits the efficacy of our analysis as disparities in outcomes exist within the broad groups. Chinese students, for instance, are known to achieve higher academic outcomes than all other ethnicities, including even White British students, whilst Pakistani and Bangladeshi students - both within the same, broader Asian group - typically have lower levels of educational attainment. In the Black ethnic group, individuals of Black African descent tend to experience better educational and employment outcomes than those of Black Caribbean descent. [[6]](https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/articles/ethnicgroupdifferencesinhealthemploymenteducationandhousingshowninenglandandwalescensus2021/2023-03-15) [[7]](https://doi.org/10.1080/1369183X.2018.1539241) A similar situation also holds for the White ethnic group, where Gypsy or Irish Traveller students experience significantly lower educational attainment compared to their White British peers. A more thorough analysis would disaggregate these broad ethnic categories into their subgroups, thereby allowing for more targeted interventions and a clearer picture of the underlying dynamics shaping outcomes across ethnic groups.  [[8]](https://assets.publishing.service.gov.uk/media/5a7a4459ed915d1a6421c3e4/DFE-RR043.pdf)
 
 As per the Census 2021, there are a total of 59,597,576 total residents in England and Wales.
 
@@ -98,6 +97,20 @@ As per the Census 2021, there are a total of 59,597,576 total residents in Engla
 ![Ethnicity Population](./Images/ethnicity_population.png)
 
 ### **Rurality and Its Impact**
+
+This analysis uses the 2011 'Rural-Urban Classification for small area geographies' or RUC for short, as no official classification exists from more recent years.[[9]](https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf) The RUC is concerned with Output Areas (OAs), the lowest level of geographical area for census statistics, composed of between 40 and 250 households, which are the subunits of LSOAs. [[1]](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies)
+
+Applied to LSOAs, the RUC places LSOAs into one of eight categories, ordered from 'most urban' to 'most rural', based on the dominant classification of their constituent OAs: [[9]](https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf)
+
+1. Urban (Major Conurbation)
+2. Urban (Minor Conurbation)
+3. Urban (City and Town)
+4. Urban (City and Town in a Sparse Setting)
+5. Rural (Town and Fringe)
+6. Rural (Town and Fringe in a Sparse Setting)
+7. Rural (Village)
+8. Rural (Village in a Spare Setting)
+
 
 ## 4. **Key Findings**
 
@@ -127,4 +140,6 @@ As per the Census 2021, there are a total of 59,597,576 total residents in Engla
 [7] Li, Y., & Heath, A. (2018). *Persisting disadvantages: A study of labour market dynamics of ethnic unemployment and earnings in the UK (2009–2015)*. *Journal of Ethnic and Migration Studies*, 46(5), 857–878. Available at: [https://doi.org/10.1080/1369183X.2018.1539241](https://doi.org/10.1080/1369183X.2018.1539241)
 
 [8] Department for Education (2010). *Improving the Outcomes for Gypsy, Roma and Traveller Pupils: Final Report*. Available at: [https://assets.publishing.service.gov.uk/media/5a7a4459ed915d1a6421c3e4/DFE-RR043.pdf](https://assets.publishing.service.gov.uk/media/5a7a4459ed915d1a6421c3e4/DFE-RR043.pdf)
+
+[9] Department for Environment, Food & Rural Affairs (DEFRA) (2011). *Rural-Urban Classification 2011: User Guide*. Available at: [https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf](https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf)
 
