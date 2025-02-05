@@ -111,6 +111,24 @@ Applied to LSOAs, the RUC places LSOAs into one of eight categories, ordered fro
 7. Rural (Village)
 8. Rural (Village in a Spare Setting)
 
+See the table below for the numbers of LSOAs given each classification as per the 2011 data:
+
+| Classification                                  | Number of LSOAs |
+|-------------------------------------------------|----------------:|
+| Urban major conurbation                         |           11,523|
+| Urban minor conurbation                         |            1,208|
+| Urban city and town                             |           15,724|
+| Urban city and town in a sparse setting         |               94|
+| Rural town and fringe                           |            3,189|
+| Rural town and fringe in a sparse setting       |              197|
+| Rural village and dispersed                     |            2,490|
+| Rural village and dispersed in a sparse setting |              328|
+
+The significant disparity in the number of LSOAs belonging to the above, eight categories poses challenges for statistical analysis, like reduced reliability of results for categories with fewer LSOAs. It is partly for this reason that this analysis aggregates these eight, separate groups into just two: 'Rural' and 'Urban'. 
+
+Such a binary classification is in line with the ONS', likewise, binary classification of Output Areas into either 'Urban' or 'Rural'. OAs are classified as 'Urban' if the broader area within which the OA is found has a populaion of over 10,000; all other OAs are classified as 'Rural'. [[10]](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification?utm_source=chatgpt.com)
+
+
 
 ## 4. **Key Findings**
 
@@ -126,7 +144,8 @@ Applied to LSOAs, the RUC places LSOAs into one of eight categories, ordered fro
 
 [1] Office for National Statistics (ONS) (2021). *Census 2021 Geographies*. Available at: [https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies)
 
-[2] Oxford Consultants for Social Inclusion (OCSI) (2019). *LSOAs, LEPs, and Lookups: A Beginner’s Guide to Statistical Geographies*. Available at: [https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/](https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/)
+[2] Oxford Consultants for Social Inclusion (OCSI) (2019). *LSOAs, LEPs, and Lookups: A Beginner’s Guide to Statistical Geographies*. Available at: 
+[https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/](https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/)
 
 [3] Royal Borough of Kensington and Chelsea (2007). *Demographics and Child Deprivation*. Available at: [https://www.rbkc.gov.uk/pdf/Demographics_childdeprivation.pdf](https://www.rbkc.gov.uk/pdf/Demographics_childdeprivation.pdf)
 
@@ -143,3 +162,4 @@ Applied to LSOAs, the RUC places LSOAs into one of eight categories, ordered fro
 
 [9] Department for Environment, Food & Rural Affairs (DEFRA) (2011). *Rural-Urban Classification 2011: User Guide*. Available at: [https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf](https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf)
 
+[10] Office for National Statistics (ONS) (2016) *2011 Rural/Urban Classification*. Available at: [https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification?utm_source=chatgpt.com](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification?utm_source=chatgpt.com)
