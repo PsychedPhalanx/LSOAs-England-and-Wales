@@ -127,15 +127,15 @@ See the table below for the numbers of LSOAs given each classification as per th
 
 The significant disparity in the number of LSOAs belonging to the above, eight categories poses challenges for statistical analysis, like reduced reliability of results for categories with fewer LSOAs. It is partly for this reason that this analysis aggregates these eight, separate groups into just two: 'Rural' and 'Urban'. 
 
-Such a binary classification is in line with the ONS', likewise, binary classification of Output Areas into either 'Urban' or 'Rural'. OAs are classified as 'Urban' if the broader area within which the OA is found has a populaion of over 10,000; all other OAs are classified as 'Rural'. [[10]](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification?utm_source=chatgpt.com)
+Such a binary classification is in line with the ONS', likewise, binary classification of Output Areas into either 'Urban' or 'Rural'. OAs are classified as 'Urban' if the broader area within which the OA is found has a populaion of over 10,000; all other OAs are classified as 'Rural'. [[10]](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification)
 
-Additionally, rurality is a variable included in our analysis in order to see how it intersects with deprivation and ethnic demography. The relative level of rurality or urbanity, made explicit by the four separate categories for each, is therefore unimportant for our concents. Using a binary classification in place of the eight categories, thus, increases the reliability of our results, as well as simplifying our analysis.
+Additionally, rurality is a variable included in our analysis in order to see how it intersects with deprivation and ethnic demography. The relative level of rurality or urbanity, made explicit by the four separate categories for each, is therefore unimportant for our concents. Using a binary classification in place of the eight categories, thus, increases the reliability of our results whilst also simplifying our analysis.
 
-The most important reason to use a binary classification, however, is due to the signifcant changes that occured to LSOAs between 2011 and 2021, detailed below in the 'Changes to LSOAs (2011-2021)' section below.
+The most important reason to use a binary classification, however, is due to the signifcant changes that occured to LSOAs between 2011 and 2021, detailed below.
 
-### Limitations of the 2011 Classification
+### LSOA Changes 2011-2021
 
-frf
+
 
 ## 4. **Key Findings**
 
@@ -169,4 +169,5 @@ frf
 
 [9] Department for Environment, Food & Rural Affairs (DEFRA) (2011). *Rural-Urban Classification 2011: User Guide*. Available at: [https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf](https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf)
 
-[10] Office for National Statistics (ONS) (2016) *2011 Rural/Urban Classification*. Available at: [https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification?utm_source=chatgpt.com](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification?utm_source=chatgpt.com)
+[10] Office for National Statistics (ONS) (2016) *2011 Rural/Urban Classification*. Available at:
+[https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification)
