@@ -129,13 +129,21 @@ The significant disparity in the number of LSOAs belonging to the above, eight c
 
 Such a binary classification is in line with the ONS', likewise, binary classification of Output Areas into either 'Urban' or 'Rural'. OAs are classified as 'Urban' if the broader area within which the OA is found has a populaion of over 10,000; all other OAs are classified as 'Rural'. [[10]](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification)
 
-Additionally, rurality is a variable included in our analysis in order to see how it intersects with deprivation and ethnic demography. The relative level of rurality or urbanity, made explicit by the four separate categories for each, is therefore unimportant for our concents. Using a binary classification in place of the eight categories, thus, increases the reliability of our results whilst also simplifying our analysis.
+Additionally, rurality is a variable included in our analysis in order to see how it intersects with deprivation and ethnic demography. The relative level of rurality or urbanity, made explicit by the four separate categories for each, is therefore unimportant for our concerns. Using a binary classification in place of the eight categories, thus, increases the reliability of our results whilst also simplifying our analysis.
 
 The most important reason to use a binary classification, however, is due to the signifcant changes that occured to LSOAs between 2011 and 2021, detailed below.
 
-### LSOA Changes 2011-2021
+### Changes to LSOAs 2011-2021
 
+First, several LSOAs had their boundaries modified. More importantly, between 2011 and 2021, an additional 919 LSOAs were created. The rationale for both of these changes was to ensure that population and household thresholds were maintained across all LSOAs. [[11]](https://www.ons.gov.uk/methodology/geography/ukgeographies/statisticalgeographies)
 
+Within this decade, we expect several LSOAs to have changed in terms of their classification as per the RUC 2011, i.e., their membership of one of the eight categories. For example, an LSOA that belonged to the 'Urban city and town' category may have been 'promoted' to 'Urban minor conurbation' due to increasing urbanisation. Without RUC data from 2021, we cannot give a definite value for the number of LSOAs affected in this way. 
+
+Using a binary classification almost completely mitigates this issue as we consider it extremely unlikely for an LSOA categorised as 'Rural' in 2011 to become 'Urban' in 2021. The reverse change, i.e., a change from 'Urban' to 'Rural', is, of course, impossible.
+
+### Data Processing: Modal Classification Approach
+
+Each of the 919 'new' LSOAs lacked a classification as per the RUC 2011. As such, they also lacked a classification as per our binary approach. To give each of these 919 LSOAs a classification, the modal classification of each local authority was computed, and any LSOAs that lacked a classification were ascribed the modal classification. For example, take a fictitious local authority composed of a total of ten LSOAs, two of which are 'new', six of which were given the classification of 'Urban', and the remaining two 'Rural'. As the most common classification for that local authority would be 'Urban', the two 'new' LSOAs would be classified as 'Urban'.
 
 ## 4. **Key Findings**
 
@@ -171,3 +179,6 @@ The most important reason to use a binary classification, however, is due to the
 
 [10] Office for National Statistics (ONS) (2016) *2011 Rural/Urban Classification*. Available at:
 [https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification)
+
+[11] Office for National Statistics (ONS) (2021) *Statistical Geographies*. Available at:
+[https://www.ons.gov.uk/methodology/geography/ukgeographies/statisticalgeographies](https://www.ons.gov.uk/methodology/geography/ukgeographies/statisticalgeographies)
