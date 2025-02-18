@@ -44,7 +44,7 @@ By contrast, LSOAs have relatively uniform population sizes, cover the whole of 
 
 These properties make LSOAs ideal for statistical analysis. Their relatively small size allows for the identification of localised trends that may otherwise be obscurred in larger geographical units. Kensington and Chelsea, for example, known for its affluence and composed of a total of 101 LSOAs, ranks 101st out of 345 local authorities in terms of deprivation, with 1st being the most deprived. [[3]](https://www.rbkc.gov.uk/pdf/Demographics_childdeprivation.pdf)
 
-![Deprivation Plot for Kensington and Chelsea](./Images/Kensington_and_Chelsea_deprivation_plot.png)
+![Deprivation Plot for Kensington and Chelsea](./Images/kensington_and_chelsea_deprivation.png)
 
 ## **Understanding Deprivation**
 
