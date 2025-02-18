@@ -42,9 +42,11 @@ Lower layer Super Output Areas (LSOAs) are small geographical units used for sta
 
 By contrast, LSOAs have relatively uniform population sizes, cover the whole of England and Wales and have stable boundaries. LSOAs comprise between 400 and 1,200 households and have a usually resident population between 1,000 and 3,000 persons. There are 33,755 LSOAs in England and 1,917 in Wales.
 
+![LSOA Boundaries](./Images/LSOA_boundaries.png)
+
 These properties make LSOAs ideal for statistical analysis. Their relatively small size allows for the identification of localised trends that may otherwise be obscurred in larger geographical units. Kensington and Chelsea, for example, known for its affluence and composed of a total of 101 LSOAs, ranks 101st out of 345 local authorities in terms of deprivation, with 1st being the most deprived. [[3]](https://www.rbkc.gov.uk/pdf/Demographics_childdeprivation.pdf)
 
-![Deprivation Plot for Kensington and Chelsea](./Images/kensington_and_chelsea_deprivation.png)
+![Deprivation Plot for Kensington and Chelsea](./Images/kensington_and_chelsea_deprivation_plot.png)
 
 ## **Understanding Deprivation**
 
@@ -121,22 +123,24 @@ Applied to LSOAs, the RUC places LSOAs into one of eight categories, ordered fro
 7. Rural (Village)
 8. Rural (Village in a Spare Setting)
 
+![RUC2011](./Images/RUC2011.png)
+
 See the table below for the numbers of LSOAs given each classification as per the 2011 data:
 
 | Classification                                  | Number of LSOAs |
 |-------------------------------------------------|----------------:|
-| Urban major conurbation                         |           11,523|
-| Urban minor conurbation                         |            1,208|
-| Urban city and town                             |           15,724|
-| Urban city and town in a sparse setting         |               94|
-| Rural town and fringe                           |            3,189|
-| Rural town and fringe in a sparse setting       |              197|
-| Rural village and dispersed                     |            2,490|
-| Rural village and dispersed in a sparse setting |              328|
+| 1. Urban major conurbation                         |           11,523|
+| 2. Urban minor conurbation                         |            1,208|
+| 3. Urban city and town                             |           15,724|
+| 4. Urban city and town in a sparse setting         |               94|
+| 5. Rural town and fringe                           |            3,189|
+| 6. Rural town and fringe in a sparse setting       |              197|
+| 7. Rural village and dispersed                     |            2,490|
+| 8. Rural village and dispersed in a sparse setting |              328|
 
 The significant disparity in the number of LSOAs belonging to the above, eight categories poses challenges for statistical analysis, like reduced reliability of results for categories with fewer LSOAs. It is partly for this reason that this analysis aggregates these eight, separate groups into just two: 'Rural' and 'Urban'. 
 
-Such a binary classification is in line with the ONS', likewise, binary classification of Output Areas into either 'Urban' or 'Rural'. OAs are classified as 'Urban' if the broader area within which the OA is found has a populaion of over 10,000; all other OAs are classified as 'Rural'. [[10]](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification)
+Such a binary classification is in line with the ONS', likewise, binary classification of Output Areas into either 'Urban' or 'Rural'. OAs are classified as 'Urban' if the broader area within which the OA is found has a population of over 10,000; all other OAs are classified as 'Rural'. [[10]](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification)
 
 Additionally, rurality is a variable included in our analysis in order to see how it intersects with deprivation and ethnic demography. The relative level of rurality or urbanity, made explicit by the four separate categories for each, is therefore unimportant for our concerns. Using a binary classification in place of the eight categories, thus, increases the reliability of our results whilst also simplifying our analysis.
 
