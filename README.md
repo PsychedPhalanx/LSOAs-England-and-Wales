@@ -11,11 +11,20 @@
    - [**Ethnicities of England and Wales**](#ethnicities-of-england-and-wales)
    - [**Rurality and Its Impact**](#rurality-and-its-impact)
 4. [**Key Findings**](#4-key-findings)
-   - [**Deprivation**](#deprivation)
-   - [**Ethnicity**](#ethnicity)
-   - [**Rurality vs Urbanity**](#rurality-vs-urbanity)
+   - [**(a) Distribution of Deprivation Levels**](#a-distribution-of-deprivation-levels)
+   - [**(b) Geospatial Plotting of LSOAs Alongside Deprivation Levels**](#b-geospatial-plotting-of-lsoas-alongside-deprivation-levels)
+   - [**(c) Geospatial Plotting of Ethnic Minority Proportions**](#c-geospatial-plotting-of-ethnic-minority-proportions)
+   - [**(d) Intersection of Deprivation and Ethnicity**](#d-intersection-of-deprivation-and-ethnicity)
+     - [**(i) Deprivation and Ethnicity - Statistical Tests**](#i-deprivation-and-ethnicity---statistical-tests)
+     - [**(ii) Clustering of LSOAs Based on Deprivation Levels and Ethnic Proportions**](#ii-clustering-of-lsoas-based-on-deprivation-levels-and-ethnic-proportions)
+   - [**(e) Intersections with Rurality**](#e-intersections-with-rurality)
+     - [**(i) Ethnicity and Rurality**](#i-ethnicity-and-rurality)
+     - [**(ii) Deprivation and Rurality**](#ii-deprivation-and-rurality)
+   - [**(f) Aggregating by Local Authority District**](#f-aggregating-by-local-authority-district)
+
 5. [**Conclusion**](#5-conclusion)
 6. [**References**](#6-references)
+
 
 ## 1. **Aims**
 
@@ -147,11 +156,26 @@ Each of the 919 'new' LSOAs lacked a classification as per the RUC 2011. As such
 
 ## 4. **Key Findings**
 
-### **Deprivation**
+### **(a) Distribution of Deprivation Levels**
 
-### **Ethnicity**
+### **(b) Geospatial Plotting of LSOAs Alongside Deprivation Levels**
 
-### **Rurality vs Urbanity**
+### **(c) Geospatial Plotting of Ethnic Minority Proportions**
+
+### **(d) Intersection of Deprivation and Ethnicity**
+
+### **(i) Deprivation and Ethnicity - Statistical Tests**
+
+### **(ii) Clustering of LSOAs Based On Deprivation Levels and Ethnic Proportions**
+
+### **(e) Intersections With Rurality**
+
+### **(i) Ethnicity and Rurality**
+
+### **(ii) Deprivation and Rurality**
+
+### **(f) Aggregating by Local Authority District**
+
 
 ## 5. **Conclusion**
 
