@@ -14,9 +14,8 @@
     1. [**Deprivation**](#deprivation)
     2. [**Ethnicity**](#ethnicity)
     3. [**Intersection of Deprivation and Ethnicity**](#intersection-of-deprivation-and-ethnicity)
-    4. [**Clustering of LSOAs Based on Deprivation Levels and Ethnic Proportions**](#clustering-of-lsoas-based-on-deprivation-levels-and-ethnic-proportions)
-    5. [**Intersections with Rurality**](#intersections-with-rurality)
-    6. [**Aggregating by Local Authority District**](#aggregating-by-local-authority-district)
+    4. [**Intersections with Rurality**](#intersections-with-rurality)
+    5. [**Aggregating by Local Authority District**](#aggregating-by-local-authority-district)
 - [**Conclusion**](#conclusion)
 - [**References**](#references)
 
@@ -216,13 +215,30 @@ Content
 
 ![White Scatter Greyed](./Images/scatter_grey_white_deprived.png)
 
+Content
+
 ![Kmeans](./Images/scatter_kmeans.png)
 
-### Clustering of LSOAs Based on Deprivation Levels and Ethnic Proportions
-Content for Clustering of LSOAs Based on Deprivation Levels and Ethnic Proportions.
+Content
+
+![Cluster Map](./Images/map_clusters.png)
+
+Content
+
+![Selected Cluster Map](./Images/map_selected_clusters.png)
+
+Content
+
+![Threshold Barchart](./Images/bar_proportion_eth.png)
 
 ### Intersections with Rurality
 Content for Intersections with Rurality.
+
+![Rural vs Urban Deprivation Histrogram](./Images/hist_deprived_rural_urban.png)
+
+Content
+
+![Rural vs Urban Ethnicity Barchart](./Images/bar_proportion_rural_urban.png)
 
 ### Aggregating by Local Authority District
 Content for Aggregating by Local Authority District.
