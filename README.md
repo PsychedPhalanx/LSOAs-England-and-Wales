@@ -100,7 +100,7 @@ As per the Census 2021, there are a total of 59,597,576 total residents in Engla
 | White     | 48,699,467         | 81.71%                        |
 
 
-![Ethnicity Population](./Images/ethnicity_population.png)
+![Ethnicity Barchart](./Images/bar_ethnicity.png)
 
 ### **The Rural/Urban Classification**
 
@@ -117,7 +117,7 @@ Applied to LSOAs, the RUC places LSOAs into one of eight categories, ordered fro
 7. Rural (Village)
 8. Rural (Village in a Spare Setting)
 
-![RUC2011](./Images/RUC2011.png)
+![RUC2011](./Images/map_ruc2011.png)
 
 See the table below for the numbers of LSOAs given each classification as per the 2011 data:
 
@@ -157,7 +157,7 @@ Using a binary classification almost completely mitigates this issue as we consi
 
 Each of the 919 'new' LSOAs lacked a classification as per the RUC 2011. As such, they also lacked a classification as per our binary approach. To give each of these 919 LSOAs a classification, the modal classification of each local authority was computed, and any LSOAs that lacked a classification were ascribed the modal classification. For example, take a fictitious local authority composed of a total of ten LSOAs, two of which are 'new', six of which were given the classification of 'Urban', and the remaining two 'Rural'. As the most common classification for that local authority would be 'Urban', the two 'new' LSOAs would be classified as 'Urban'.
 
-![Rural-Urban](./Images/rural_urban.png)
+![Rural-Urban](./Images/map_rural_urban.png)
 
 
 ## Key Findings
@@ -165,6 +165,12 @@ Content for Key Findings.
 
 ### Deprivation
 Content for Deprivation.
+
+![Deprivation Histogram](./Images/hist_deprived.png)
+
+Content for Deprivation
+
+![Deprivation Map](./Images/map_deprived.png)
 
 ### Ethnicity
 Content for Ethnicity.
