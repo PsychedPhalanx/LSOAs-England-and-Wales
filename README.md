@@ -216,7 +216,7 @@ Content
 
 ![White Scatter Greyed](./Images/scatter_grey_white_deprived.png)
 
-![K-Means](./Images/scatter_kmeans.png)
+![Kmeans](./Images/scatter_kmeans.png)
 
 ### Clustering of LSOAs Based on Deprivation Levels and Ethnic Proportions
 Content for Clustering of LSOAs Based on Deprivation Levels and Ethnic Proportions.
