@@ -3,50 +3,46 @@
 
 ## Contents
 
-1. [**Aims**](#1-aims)
-2. [**Datasets Used**](#2-datasets-used)
-3. [**Introduction**](#3-introduction)
-   - [**What Are LSOAs?**](#what-are-lsoas)
-   - [**Understanding Deprivation**](#understanding-deprivation)
-   - [**Ethnicities of England and Wales**](#ethnicities-of-england-and-wales)
-   - [**Rurality and Its Impact**](#rurality-and-its-impact)
-4. [**Key Findings**](#4-key-findings)
-   - [**(a) Distribution of Deprivation Levels**](#a-distribution-of-deprivation-levels)
-   - [**(b) Geospatial Plotting of LSOAs Alongside Deprivation Levels**](#b-geospatial-plotting-of-lsoas-alongside-deprivation-levels)
-   - [**(c) Geospatial Plotting of Ethnic Minority Proportions**](#c-geospatial-plotting-of-ethnic-minority-proportions)
-   - [**(d) Intersection of Deprivation and Ethnicity**](#d-intersection-of-deprivation-and-ethnicity)
-     - [**(i) Deprivation and Ethnicity - Statistical Tests**](#i-deprivation-and-ethnicity---statistical-tests)
-     - [**(ii) Clustering of LSOAs Based on Deprivation Levels and Ethnic Proportions**](#ii-clustering-of-lsoas-based-on-deprivation-levels-and-ethnic-proportions)
-   - [**(e) Intersections with Rurality**](#e-intersections-with-rurality)
-     - [**(i) Ethnicity and Rurality**](#i-ethnicity-and-rurality)
-     - [**(ii) Deprivation and Rurality**](#ii-deprivation-and-rurality)
-   - [**(f) Aggregating by Local Authority District**](#f-aggregating-by-local-authority-district)
+- [**Aims**](#aims)
+- [**Datasets Used**](#datasets-used)
+- [**Introduction**](#introduction)
+    1. [**What Are LSOAs?**](#what-are-lsoas)
+    2. [**Deprivation as Measured by the ONS**](#deprivation-as-measured-by-the-ons)
+    3. [**Ethnicities of England and Wales**](#ethnicities-of-england-and-wales)
+    4. [**The Rural/Urban Classification**](#the-ruralurban-classification)
+- [**Key Findings**](#key-findings)
+    1. [**Deprivation**](#deprivation)
+    2. [**Ethnicity**](#ethnicity)
+    3. [**Intersection of Deprivation and Ethnicity**](#intersection-of-deprivation-and-ethnicity)
+    4. [**Clustering of LSOAs Based on Deprivation Levels and Ethnic Proportions**](#clustering-of-lsoas-based-on-deprivation-levels-and-ethnic-proportions)
+    5. [**Intersections with Rurality**](#intersections-with-rurality)
+    6. [**Aggregating by Local Authority District**](#aggregating-by-local-authority-district)
+- [**Conclusion**](#conclusion)
+- [**References**](#references)
 
-5. [**Conclusion**](#5-conclusion)
-6. [**References**](#6-references)
-
-
-## 1. **Aims**
+## **Aims**
 
 - To conduct geospatial analysis, identifying regions of England and Wales with (a) high levels of deprivation and (b) high concentrations of ethnic minorities.
 - To assess the relationship between ethnic demographics and levels of deprivation.
 - To examine the impact of rurality on (a) deprivation levels and (b) concentrations of ethnic minorities.
 
-## 2. **Datasets Used**
+## **Datasets Used**
 
-## 3. **Introduction**
+## **Introduction**
 
-## **What Are LSOAs?**
+### **What Are LSOAs?**
 
 Lower layer Super Output Areas (LSOAs) are small geographical units used for statistical purposes in England and Wales. LSOAs were introduced following the Census 2001 to mitigate the challenges posed to statistical analysis using historically-used geographical units: greatly varying population sizes, as in the case of wards; lacking coverage of the entirety of England and Wales, as in the case of parishes; and boundaries subject to change, as in the case of wards, parishes, local authorities and parliamentary constituencies. [[1]](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies) [[2]](https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/)
 
 By contrast, LSOAs have relatively uniform population sizes, cover the whole of England and Wales and have stable boundaries. LSOAs comprise between 400 and 1,200 households and have a usually resident population between 1,000 and 3,000 persons. There are 33,755 LSOAs in England and 1,917 in Wales.
 
+![LSOA Boundaries](./images/LSOA_boundaries.png)
+
 These properties make LSOAs ideal for statistical analysis. Their relatively small size allows for the identification of localised trends that may otherwise be obscurred in larger geographical units. Kensington and Chelsea, for example, known for its affluence and composed of a total of 101 LSOAs, ranks 101st out of 345 local authorities in terms of deprivation, with 1st being the most deprived. [[3]](https://www.rbkc.gov.uk/pdf/Demographics_childdeprivation.pdf)
 
-![Deprivation Plot for Kensington and Chelsea](./Images/kensington_and_chelsea_deprivation.png)
+![Deprivation Plot for Kensington and Chelsea](./images/kensington_and_chelsea_deprivation_plot.png)
 
-## **Understanding Deprivation**
+### **Deprivation as Measured by the ONS**
 
 The ONS considers entire households to be deprived based on four dimensions:
 - Education
@@ -60,7 +56,7 @@ The ONS considers entire households to be deprived based on four dimensions:
 
 The ONS data only gives the number of households deprived in 0, 1, 2, 3 or 4 dimensions per LSOA, but not which specific dimension(s) a household is deprived in. This restricts our ability to understand which factors are driving deprivation in each LSOA. As a result, our analysis can identify LSOAs or local authorities with high levels of deprivation but cannot provide insights into which dimensions of deprivation (education, employment, health or housing) are most prevalent. A more complete analysis ought to collate data on each of these four dimensions seperately, in order to identify LSOAs underperforming in each dimension.
 
-## **Ethnicities of England and Wales**
+### **Ethnicities of England and Wales**
 
 Similarly to the other data collected by the ONS, ethnicity is self-reported by individuals. This can be problematic in the case of ethnicity due to the "subjective, multifaceted, and changing nature of ethnic identification". [[5]](https://www.ons.gov.uk/methodology/classificationsandstandards/measuringequality/ethnicgroupnationalidentityandreligion)
 
@@ -89,7 +85,7 @@ The Census 2021 provided a range of ethnic categories for individuals to choose 
 - Other ethnic group
     - Arab
     - Any other ethnic group
-
+  
 This analysis only considers the five broad ethnic groups - White, Mixed, Asian, Black, and Other - without accounting for their subgroups. This simplification greatly limits the efficacy of our analysis as disparities in outcomes exist within the broad groups. Chinese students, for instance, are known to achieve higher academic outcomes than all other ethnicities, including even White British students, whilst Pakistani and Bangladeshi students - both within the same, broader Asian group - typically have lower levels of educational attainment. In the Black ethnic group, individuals of Black African descent tend to experience better educational and employment outcomes than those of Black Caribbean descent. [[6]](https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/articles/ethnicgroupdifferencesinhealthemploymenteducationandhousingshowninenglandandwalescensus2021/2023-03-15) [[7]](https://doi.org/10.1080/1369183X.2018.1539241) A similar situation also holds for the White ethnic group, where Gypsy or Irish Traveller students experience significantly lower educational attainment compared to their White British peers. [[8]](https://assets.publishing.service.gov.uk/media/5a7a4459ed915d1a6421c3e4/DFE-RR043.pdf)
  A more thorough analysis would disaggregate these broad ethnic categories into their subgroups, thereby allowing for more targeted interventions and a clearer picture of the underlying dynamics shaping outcomes across ethnic groups.
 
@@ -106,7 +102,7 @@ As per the Census 2021, there are a total of 59,597,576 total residents in Engla
 
 ![Ethnicity Population](./Images/ethnicity_population.png)
 
-## **Rurality and Its Impact**
+### **The Rural/Urban Classification**
 
 This analysis uses the 2011 'Rural-Urban Classification for small area geographies' or RUC for short, as no official classification exists from more recent years.[[9]](https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf) The RUC is concerned with Output Areas (OAs), the lowest level of geographical area for census statistics, composed of between 40 and 250 households, which are the subunits of LSOAs. [[1]](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies)
 
@@ -121,28 +117,35 @@ Applied to LSOAs, the RUC places LSOAs into one of eight categories, ordered fro
 7. Rural (Village)
 8. Rural (Village in a Spare Setting)
 
+![RUC2011](./Images/RUC2011.png)
+
 See the table below for the numbers of LSOAs given each classification as per the 2011 data:
 
 | Classification                                  | Number of LSOAs |
 |-------------------------------------------------|----------------:|
-| Urban major conurbation                         |           11,523|
-| Urban minor conurbation                         |            1,208|
-| Urban city and town                             |           15,724|
-| Urban city and town in a sparse setting         |               94|
-| Rural town and fringe                           |            3,189|
-| Rural town and fringe in a sparse setting       |              197|
-| Rural village and dispersed                     |            2,490|
-| Rural village and dispersed in a sparse setting |              328|
+| 1. Urban major conurbation                         |           11,523|
+| 2. Urban minor conurbation                         |            1,208|
+| 3. Urban city and town                             |           15,724|
+| 4. Urban city and town in a sparse setting         |               94|
+| 5. Rural town and fringe                           |            3,189|
+| 6. Rural town and fringe in a sparse setting       |              197|
+| 7. Rural village and dispersed                     |            2,490|
+| 8. Rural village and dispersed in a sparse setting |              328|
 
 The significant disparity in the number of LSOAs belonging to the above, eight categories poses challenges for statistical analysis, like reduced reliability of results for categories with fewer LSOAs. It is partly for this reason that this analysis aggregates these eight, separate groups into just two: 'Rural' and 'Urban'. 
 
-Such a binary classification is in line with the ONS', likewise, binary classification of Output Areas into either 'Urban' or 'Rural'. OAs are classified as 'Urban' if the broader area within which the OA is found has a populaion of over 10,000; all other OAs are classified as 'Rural'. [[10]](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification)
+| Classification | Number of LSOAs |
+|-------- | -------- |
+| Urban   | 29,591   |
+| Rural   |   6081  |
+
+Such a binary classification is in line with the ONS', likewise, binary classification of Output Areas into either 'Urban' or 'Rural'. OAs are classified as 'Urban' if the broader area within which the OA is found has a population of over 10,000; all other OAs are classified as 'Rural'. [[10]](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification)
 
 Additionally, rurality is a variable included in our analysis in order to see how it intersects with deprivation and ethnic demography. The relative level of rurality or urbanity, made explicit by the four separate categories for each, is therefore unimportant for our concerns. Using a binary classification in place of the eight categories, thus, increases the reliability of our results whilst also simplifying our analysis.
 
 The most important reason to use a binary classification, however, is due to the signifcant changes that occured to LSOAs between 2011 and 2021, detailed below.
 
-### Changes to LSOAs 2011-2021
+#### Changes to LSOAs 2011-2021
 
 First, several LSOAs had their boundaries modified. More importantly, between 2011 and 2021, an additional 919 LSOAs were created. The rationale for both of these changes was to ensure that population and household thresholds were maintained across all LSOAs. [[11]](https://www.ons.gov.uk/methodology/geography/ukgeographies/statisticalgeographies)
 
@@ -150,36 +153,38 @@ Within this decade, we expect several LSOAs to have changed in terms of their cl
 
 Using a binary classification almost completely mitigates this issue as we consider it extremely unlikely for an LSOA categorised as 'Rural' in 2011 to become 'Urban' in 2021. The reverse change, i.e., a change from 'Urban' to 'Rural', is, of course, impossible.
 
-### Data Processing: Modal Classification Approach
+#### Data Processing: Modal Classification Approach
 
 Each of the 919 'new' LSOAs lacked a classification as per the RUC 2011. As such, they also lacked a classification as per our binary approach. To give each of these 919 LSOAs a classification, the modal classification of each local authority was computed, and any LSOAs that lacked a classification were ascribed the modal classification. For example, take a fictitious local authority composed of a total of ten LSOAs, two of which are 'new', six of which were given the classification of 'Urban', and the remaining two 'Rural'. As the most common classification for that local authority would be 'Urban', the two 'new' LSOAs would be classified as 'Urban'.
 
-## 4. **Key Findings**
-
-### **(a) Distribution of Deprivation Levels**
-
-### **(b) Geospatial Plotting of LSOAs Alongside Deprivation Levels**
-
-### **(c) Geospatial Plotting of Ethnic Minority Proportions**
-
-### **(d) Intersection of Deprivation and Ethnicity**
-
-### **(i) Deprivation and Ethnicity - Statistical Tests**
-
-### **(ii) Clustering of LSOAs Based On Deprivation Levels and Ethnic Proportions**
-
-### **(e) Intersections With Rurality**
-
-### **(i) Ethnicity and Rurality**
-
-### **(ii) Deprivation and Rurality**
-
-### **(f) Aggregating by Local Authority District**
+![Rural-Urban](./Images/rural_urban.png)
 
 
-## 5. **Conclusion**
+## Key Findings
+Content for Key Findings.
 
-## 6. **References**
+### Deprivation
+Content for Deprivation.
+
+### Ethnicity
+Content for Ethnicity.
+
+### Intersection of Deprivation and Ethnicity
+Content for Intersection of Deprivation and Ethnicity.
+
+### Clustering of LSOAs Based on Deprivation Levels and Ethnic Proportions
+Content for Clustering of LSOAs Based on Deprivation Levels and Ethnic Proportions.
+
+### Intersections with Rurality
+Content for Intersections with Rurality.
+
+### Aggregating by Local Authority District
+Content for Aggregating by Local Authority District.
+
+## Conclusion
+Content for Conclusion.
+
+## **References**
 
 [1] Office for National Statistics (ONS) (2021). *Census 2021 Geographies*. Available at: [https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies)
 
