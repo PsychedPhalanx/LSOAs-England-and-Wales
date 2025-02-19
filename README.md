@@ -175,8 +175,48 @@ Content for Deprivation
 ### Ethnicity
 Content for Ethnicity.
 
+Add Correlation Matrix between ethnicities - use to justify white vs non-white
+
+![White Histogram](./Images/hist_white.png)
+
+Content for Ethnicity
+
+![NW Histogram](./Images/hist_non_white.png)
+
+Content for Ethnicity
+
+![NW Map](./Images/map_minority.png)
+
 ### Intersection of Deprivation and Ethnicity
 Content for Intersection of Deprivation and Ethnicity.
+
+![Correlation Matrix](./Images/heatmap.png)
+
+Content
+
+![White Scatter](./Images/scatter_white_deprived.png)
+
+Content
+
+![Black Scatter](./Images/scatter_black_deprived.png)
+
+Content
+
+![Asian Scatter](./Images/scatter_asian_deprived.png)
+
+Content
+
+![Mixed Scatter](./Images/scatter_mixed_deprived.png)
+
+Content
+
+![Other Scatter](./Images/scatter_other_deprived.png)
+
+Content
+
+![White Scatter Greyed](./Images/scatter_grey_white_deprived.png)
+
+![K-Means](./Images/scatter_kmeans.png)
 
 ### Clustering of LSOAs Based on Deprivation Levels and Ethnic Proportions
 Content for Clustering of LSOAs Based on Deprivation Levels and Ethnic Proportions.
