@@ -163,7 +163,37 @@ Each of the 919 'new' LSOAs lacked a classification as per the RUC 2011. As such
 Content for Key Findings.
 
 ### Deprivation
-Content for Deprivation.
+
+Again, entire households are considered deprived by the ONS. As such, the data either indicates the absolute number of deprived households, or the percentage of deprived households. See the first five rows of the data pertaining to deprivation in LSOAs in England and Wales:
+
+
+| LSOA Code | Total Households | Not-N | Not-% | 1-N | 1-%  | 2-N | 2-%  | 3-N | 3-% | 4-N | 4-% | LSOA Name       | Deprived % |
+|-----------|------------------|-------|-------|-----|------|-----|------|-----|-----|-----|-----|-----------------|------------|
+| E01011954 | 963              | 389   | 40.4  | 304 | 31.6 | 207 | 21.5 | 62  | 6.4 | 1   | 0.1 | Hartlepool 001A | 59.6       |
+| E01011969 | 603              | 306   | 50.7  | 199 | 33.0 | 89  | 14.8 | 9   | 1.5 | 0   | 0.0 | Hartlepool 001B | 49.3       |
+| E01011970 | 488              | 251   | 51.4  | 170 | 34.8 | 61  | 12.5 | 6   | 1.2 | 0   | 0.0 | Hartlepool 001C | 48.6       |
+| E01011971 | 519              | 325   | 62.6  | 147 | 28.3 | 45  | 8.7  | 2   | 0.4 | 0   | 0.0 | Hartlepool 001D | 37.4       |
+| E01033465 | 740              | 459   | 62.0  | 209 | 28.2 | 66  | 8.9  | 6   | 0.8 | 0   | 0.0 | Hartlepool 001F | 38.0       |
+
+The final column is not included in the original dataset. Column names have either been modified or abbreviated for clarity. 'Not-N', '1-N', '2-N', etc., indicate the number of households in an LSOA that are deprived in the corresponding number of measures: 'Not-N' gives the number of households not deprived in any measure, '1-N' gives the number of households deprived in a singular measure, etc. The neighbouring percentage columns, e.g., 'Not-%', '1-%', etc., give the percentage of households deprived in the corresponding number of measures.
+
+See the below summary statistics:
+
+|             | Total Households |     Not-N     |    Not-%    |     1-N     |    1-%    |     2-N     |    2-%    |     3-N     |    3-%    |     4-N     |    4-%    | Deprived %  |
+|-------------|------------------|---------------|-------------|-------------|-----------|-------------|-----------|-------------|-----------|-------------|-----------|-------------|
+| count       | 35,672           | 35,672        | 35,672      | 35,672      | 35,672    | 35,672      | 35,672    | 35,672      | 35,672    | 35,672      | 35,672    | 35,672      |
+| mean        | 695              | 336           | 48          | 232         | 34        | 99          | 14        | 26          | 4         | 2           | 0        | 52          |
+| std         | 144              | 103           | 11          | 53          | 4         | 44          | 6         | 21          | 3         | 2           | 0        | 11          |
+| min         | 400              | 70            | 13          | 81          | 16        | 9           | 2         | 0           | 0         | 0           | 0         | 19          |
+| 25%         | 601              | 264           | 41          | 196         | 31        | 66          | 10        | 10          | 2         | 0           | 0         | 44          |
+| 50%         | 665              | 325           | 49          | 226         | 34        | 93          | 14        | 20          | 3         | 1           | 0         | 51          |
+| 75%         | 767              | 394           | 56          | 261         | 36        | 127         | 18        | 37          | 5         | 2           | 0         | 60          |
+| max         | 1,980            | 1,052         | 81          | 723         | 60        | 379         | 37        | 191         | 19        | 35          | 5         | 87          |
+
+
+It is reasonable to expect correlations to exist between several of these columns. We expect a negative correlation between 'Not-%' and '1-%', '2-%', '3-%', etc. - As the percentage of households not deprived in any measure increases, the percentage of households deprived in any number of measures ought to decrease. We expect positive correlations to exist between the percentage of households deprived in some number of measures, excluding 0 - if an LSOA has an abudance of households deprived in a singular measure, it will likely have a higher number of households deprived in two and 3 and 4 measures. A simple correlation heatmap affirms these contentions:
+
+
 
 ![Deprivation Histogram](./Images/hist_deprived.png)
 
