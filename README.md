@@ -193,9 +193,18 @@ See the below summary statistics:
 
 It is reasonable to expect correlations to exist between several of these columns. We expect a negative correlation between 'Not-%' and '1-%', '2-%', '3-%', etc. - As the percentage of households not deprived in any measure increases, the percentage of households deprived in any number of measures ought to decrease. We expect positive correlations to exist between the percentage of households deprived in some number of measures, excluding 0 - if an LSOA has an abudance of households deprived in a singular measure, it will likely have a higher number of households deprived in two and 3 and 4 measures. A simple correlation heatmap affirms these contentions:
 
+![Deprivation Heatmap](./Images/heatmap_deprivation.png)
 
+The summary statistics indicate a great disparity in the percentages for the relevant columns, e.g., observe the statistics for the '3-%' and '4-%' columns compared to those for 'Not-%' and '1-%'. This disparity, coupled with the relatively strong correlations between the percentages of households deprived in some number of measures, was reason to derive a singular metric for deprivation, called 'Deprived %', present in the data shown. 'Deprived %' gives the percentage of households in an LSOA that are deprived in any number of measures, excluding 0, and was trivially computed by summing all the relavent percentage columns.
+
+See the below histogram showing the distribution of household deprivation across all LSOAs in England and Wales, where each LSOA's value represents the percentage of households deprived in at least one measure.
 
 ![Deprivation Histogram](./Images/hist_deprived.png)
+
+The plot shows the percentage of households experiencing deprivation in at least one measure ranges from approximately 20% to 85% across different areas. The peak of this distribution occurs between 45-50% deprivation, where we find approximately 4,200 LSOAs. Statistical testing strongly rejects the hypothesis of normality (D'Agostino's K² test statistic = 1065.25, p < 0.001), indicating that the distribution significantly deviates from a normal distribution despite its superficially bell-shaped appearance. This finding informs our use of non-parametric methods in future hypothesis tests.
+
+The distribution exhibits a notable positive skew, with a longer tail extending towards higher deprivation levels. This skewness indicates that while most areas cluster around moderate levels of deprivation, there are some areas experiencing particularly high levels of household deprivation. Most LSOAs (approximately 80%) fall between 35% and 65% deprivation levels, with relatively few areas showing either very low (<25%) or very high (>75%) deprivation. This concentration around moderate levels suggests that extreme deprivation, while present, is not typical across England and Wales.
+
 
 Content for Deprivation
 
