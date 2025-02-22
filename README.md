@@ -209,12 +209,34 @@ The below chloropleth map visualises the percentage of households deprived in at
 
 ![Deprivation Map](./Images/map_deprived.png)
 
-The geospatial visualisation reveals clear patterns of household deprivation across England and Wales. Major urban centres, particularly in northern England, show notably higher deprivation levels (orange to red colouring). London displays a distinct pattern with higher deprivation concentrated in its eastern regions, while its western areas show lower deprivation levels (green colouring) - a divide that has considerably diminished in its intensity in recent years [[11]](https://centreforlondon.org/wp-content/uploads/2016/08/CFLJ3887-Inside-out-inequality_12.125_WEB.pdf). The Welsh Valleys and several coastal regions, particularly along the east coast, exhibit concentrated areas of higher deprivation. This coastal pattern reflects challenges faced by British seaside towns, including seasonal employment and poor transport connectivity, as highlighted in parliamentary research [[12]]((https://publications.parliament.uk/pa/ld201719/ldselect/ldseaside/320/320.pdf)
+The geospatial visualisation reveals clear patterns of household deprivation across England and Wales. Major urban centres, particularly in northern England, show notably higher deprivation levels (orange to red colouring). London displays a distinct pattern with higher deprivation concentrated in its eastern regions, while its western areas show lower deprivation levels (green colouring) - a divide that has considerably diminished in its intensity in recent years [[11]](https://centreforlondon.org/wp-content/uploads/2016/08/CFLJ3887-Inside-out-inequality_12.125_WEB.pdf). The Welsh Valleys and several coastal regions, particularly along the east coast, exhibit concentrated areas of higher deprivation. This coastal pattern reflects challenges faced by British seaside towns, including seasonal employment and poor transport connectivity, as highlighted in parliamentary research [[12]](https://publications.parliament.uk/pa/ld201719/ldselect/ldseaside/320/320.pdf).
 
 In contrast, large swaths of rural England, especially in the south and central regions, demonstrate consistently lower deprivation levels. This pattern contributes to the well-documented north-south divide in England, where northern regions generally experience higher levels of deprivation and poorer socioeconomic outcomes [[13]](https://www.ippr.org/research/publications/state-of-the-north-2024). However, the visualisation shows significant local variations, particularly around major northern cities, suggesting that the relationship between geography and deprivation is not straightforward. The presence of both highly deprived and affluent areas within close proximity, particularly in urban settings, indicates the localised nature of deprivation and the importance of analysing patterns at the LSOA level.
 
 ### Ethnicity
-Content for Ethnicity.
+See the first five rows of the data relating to ethnicity below:
+
+| LSOA Code  | Total  | Asian | Asian % | Black | Black % | Mixed | Mixed % | White  | White % | Other | Other % | LSOA Name       | Non-White | Non-White % |
+|------------|--------|-------|---------|-------|---------|-------|---------|--------|---------|-------|---------|----------------|-----------|-------------|
+| E01011954  | 2284.0 | 19.0  | 0.8     | 0.0   | 0.0     | 6.0   | 0.3     | 2248.0 | 98.4    | 11.0  | 0.5     | Hartlepool 001A | 36.0      | 1.6         |
+| E01011969  | 1345.0 | 6.0   | 0.4     | 0.0   | 0.0     | 6.0   | 0.4     | 1329.0 | 98.8    | 4.0   | 0.3     | Hartlepool 001B | 16.0      | 1.2         |
+| E01011970  | 1070.0 | 7.0   | 0.7     | 0.0   | 0.0     | 4.0   | 0.4     | 1059.0 | 99.0    | 0.0   | 0.0     | Hartlepool 001C | 11.0      | 1.0         |
+| E01011971  | 1323.0 | 5.0   | 0.4     | 0.0   | 0.0     | 5.0   | 0.4     | 1311.0 | 99.1    | 2.0   | 0.2     | Hartlepool 001D | 12.0      | 0.9         |
+| E01033465  | 1954.0 | 12.0  | 0.6     | 2.0   | 0.1     | 11.0  | 0.6     | 1914.0 | 98.0    | 15.0  | 0.8     | Hartlepool 001F | 40.0      | 2.0         |
+
+In contrast to the deprivation data, the ONS collates ethnicity information in terms numbers of people. See the summary statistics below:
+
+| Statistic | Total       | Asian       | Asian %     | Black       | Black %     | Mixed       | Mixed %     | White       | White %     | Other       | Other %     | Non-White   | Non-White % |
+|-----------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+| count     | 35672.000000| 35672.000000| 35672.000000| 35672.000000| 35672.000000| 35672.000000| 35672.000000| 35672.000000| 35672.000000| 35672.000000| 35672.000000| 35672.000000| 35672.000000|
+| mean      | 1670.710249 | 154.618300  | 8.611112    | 67.537873   | 3.784091    | 48.157771   | 2.808354    | 1365.201475 | 82.800950   | 35.194831   | 1.997334    | 305.508774  | 17.199050   |
+| std       | 354.184425  | 266.791618  | 13.583344   | 125.314551  | 6.646866    | 38.791511   | 2.044719    | 409.690590  | 20.192162   | 53.080967   | 2.820652    | 395.156155  | 20.192162   |
+| min       | 997.000000  | 0.000000    | 0.000000    | 0.000000    | 0.000000    | 0.000000    | 0.000000    | 15.000000   | 0.800000    | 0.000000    | 0.000000    | 0.000000    | 0.000000    |
+| 25%       | 1440.000000 | 18.000000   | 1.200000    | 5.000000    | 0.300000    | 20.000000   | 1.300000    | 1162.000000 | 76.400000   | 5.000000    | 0.300000    | 54.000000   | 3.400000    |
+| 50%       | 1605.000000 | 52.000000   | 3.200000    | 17.000000   | 1.100000    | 36.000000   | 2.200000    | 1370.000000 | 92.000000   | 14.000000   | 0.900000    | 129.000000  | 8.000000    |
+| 75%       | 1833.000000 | 164.000000  | 9.700000    | 68.000000   | 4.000000    | 66.000000   | 3.900000    | 1566.000000 | 96.600000   | 43.000000   | 2.500000    | 397.000000  | 23.600000   |
+| max       | 9899.000000 | 2608.000000 | 96.300000   | 1624.000000 | 62.100000   | 663.000000  | 18.500000   | 7111.000000 | 100.000000  | 926.000000  | 35.200000   | 3518.000000 | 99.200000   |
+
 
 Add Correlation Matrix between ethnicities - use to justify white vs non-white
 
