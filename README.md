@@ -31,13 +31,13 @@
 
 ### **What Are LSOAs?**
 
-Lower layer Super Output Areas (LSOAs) are small geographical units used for statistical purposes in England and Wales. LSOAs were introduced following the Census 2001 to mitigate the challenges posed to statistical analysis using historically-used geographical units: greatly varying population sizes, as in the case of wards; lacking coverage of the entirety of England and Wales, as in the case of parishes; and boundaries subject to change, as in the case of wards, parishes, local authorities and parliamentary constituencies. [[1]](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies) [[2]](https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/)
+Lower layer Super Output Areas (LSOAs) are small geographical units used for statistical purposes in England and Wales. LSOAs were introduced following the Census 2001 to mitigate the challenges posed to statistical analysis using historically-used geographical units: greatly varying population sizes, as in the case of wards; lacking coverage of the entirety of England and Wales, as in the case of parishes; and boundaries subject to change, as in the case of wards, parishes, local authorities and parliamentary constituencies [[1]](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies) [[2]](https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/).
 
-By contrast, LSOAs have relatively uniform population sizes, cover the whole of England and Wales and have stable boundaries. LSOAs comprise between 400 and 1,200 households and have a usually resident population between 1,000 and 3,000 persons. There are 33,755 LSOAs in England and 1,917 in Wales.
+By contrast, LSOAs have relatively uniform population sizes, cover the whole of England and Wales and have stable boundaries. LSOAs comprise between 400 and 1,200 households and have a usually resident population between 1,000 and 3,000 persons. There are 33,755 LSOAs in England and 1,917 in Wales [[1]](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies).
 
 ![LSOA Boundaries](./Images/LSOA_boundaries.png)
 
-These properties make LSOAs ideal for statistical analysis. Their relatively small size allows for the identification of localised trends that may otherwise be obscurred in larger geographical units. Kensington and Chelsea, for example, known for its affluence and composed of a total of 101 LSOAs, ranks 101st out of 345 local authorities in terms of deprivation, with 1st being the most deprived. [[3]](https://www.rbkc.gov.uk/pdf/Demographics_childdeprivation.pdf)
+These properties make LSOAs ideal for statistical analysis. Their relatively small size allows for the identification of localised trends that may otherwise be obscurred in larger geographical units. Kensington and Chelsea, for example, known for its affluence and composed of a total of 101 LSOAs, exhibits considerable disparities in terms of deprivation.
 
 ![Deprivation Plot for Kensington and Chelsea](./Images/kensington_and_chelsea_deprivation_plot.png)
 
@@ -51,13 +51,13 @@ The ONS considers entire households to be deprived based on four dimensions:
 - Health
   - A household is classified as deprived in the health dimension if any person in the household has general health that is bad or very bad or is identified as disabled.
 - Housing
-   - A household is classified as deprived in the housing dimension if the household's accommodation is either overcrowded, in a shared dwelling, or has no central heating. [[4]](https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/demographyvariablescensus2021/householddeprivation)
+   - A household is classified as deprived in the housing dimension if the household's accommodation is either overcrowded, in a shared dwelling, or has no central heating [[3]](https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/demographyvariablescensus2021/householddeprivation).
 
 The ONS data only gives the number of households deprived in 0, 1, 2, 3 or 4 dimensions per LSOA, but not which specific dimension(s) a household is deprived in. This restricts our ability to understand which factors are driving deprivation in each LSOA. As a result, our analysis can identify LSOAs or local authorities with high levels of deprivation but cannot provide insights into which dimensions of deprivation (education, employment, health or housing) are most prevalent. A more complete analysis ought to collate data on each of these four dimensions seperately, in order to identify LSOAs underperforming in each dimension.
 
 ### **Ethnicities of England and Wales**
 
-Similarly to the other data collected by the ONS, ethnicity is self-reported by individuals. This can be problematic in the case of ethnicity due to the "subjective, multifaceted, and changing nature of ethnic identification". [[5]](https://www.ons.gov.uk/methodology/classificationsandstandards/measuringequality/ethnicgroupnationalidentityandreligion)
+Similarly to the other data collected by the ONS, ethnicity is self-reported by individuals. This can be problematic in the case of ethnicity due to the "subjective, multifaceted, and changing nature of ethnic identification" [[4]](https://www.ons.gov.uk/methodology/classificationsandstandards/measuringequality/ethnicgroupnationalidentityandreligion).
 
 The Census 2021 provided a range of ethnic categories for individuals to choose from. Within each broad group, individuals could specify the subgroup that they most closely identified with:
 
@@ -85,7 +85,7 @@ The Census 2021 provided a range of ethnic categories for individuals to choose 
     - Arab
     - Any other ethnic group
   
-This analysis only considers the five broad ethnic groups - White, Mixed, Asian, Black, and Other - without accounting for their subgroups. This simplification greatly limits the efficacy of our analysis as disparities in outcomes exist within the broad groups. Chinese students, for instance, are known to achieve higher academic outcomes than all other ethnicities, including even White British students, whilst Pakistani and Bangladeshi students - both within the same, broader Asian group - typically have lower levels of educational attainment. In the Black ethnic group, individuals of Black African descent tend to experience better educational and employment outcomes than those of Black Caribbean descent. [[6]](https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/articles/ethnicgroupdifferencesinhealthemploymenteducationandhousingshowninenglandandwalescensus2021/2023-03-15) [[7]](https://doi.org/10.1080/1369183X.2018.1539241) A similar situation also holds for the White ethnic group, where Gypsy or Irish Traveller students experience significantly lower educational attainment compared to their White British peers. [[8]](https://assets.publishing.service.gov.uk/media/5a7a4459ed915d1a6421c3e4/DFE-RR043.pdf)
+This analysis only considers the five broad ethnic groups - White, Mixed, Asian, Black, and Other - without accounting for their subgroups. This simplification greatly limits the efficacy of our analysis as disparities in outcomes exist within the broad groups. Chinese students, for instance, are known to achieve higher academic outcomes than all other ethnicities, including even White British students, whilst Pakistani and Bangladeshi students - both within the same, broader Asian group - typically have lower levels of educational attainment. In the Black ethnic group, individuals of Black African descent tend to experience better educational and employment outcomes than those of Black Caribbean descent [[5]](https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/articles/ethnicgroupdifferencesinhealthemploymenteducationandhousingshowninenglandandwalescensus2021/2023-03-15) [[6]](https://doi.org/10.1080/1369183X.2018.1539241). A similar situation also holds for the White ethnic group, where Gypsy or Irish Traveller students experience significantly lower educational attainment compared to their White British peers [[7]](https://assets.publishing.service.gov.uk/media/5a7a4459ed915d1a6421c3e4/DFE-RR043.pdf).
  A more thorough analysis would disaggregate these broad ethnic categories into their subgroups, thereby allowing for more targeted interventions and a clearer picture of the underlying dynamics shaping outcomes across ethnic groups.
 
 As per the Census 2021, there are a total of 59,597,576 total residents in England and Wales.
@@ -103,9 +103,9 @@ As per the Census 2021, there are a total of 59,597,576 total residents in Engla
 
 ### **The Rural/Urban Classification**
 
-This analysis uses the 2011 'Rural-Urban Classification for small area geographies' or RUC for short, as no official classification exists from more recent years.[[9]](https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf) The RUC is concerned with Output Areas (OAs), the lowest level of geographical area for census statistics, composed of between 40 and 250 households, which are the subunits of LSOAs. [[1]](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies)
+This analysis uses the 2011 'Rural-Urban Classification for small area geographies' or RUC for short, as no official classification exists from more recent years[[8]](https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf). The RUC is concerned with Output Areas (OAs), the lowest level of geographical area for census statistics, composed of between 40 and 250 households, which are the subunits of LSOAs [[1]](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies).
 
-Applied to LSOAs, the RUC places LSOAs into one of eight categories, ordered from 'most urban' to 'most rural', based on the dominant classification of their constituent OAs: [[9]](https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf)
+Applied to LSOAs, the RUC places LSOAs into one of eight categories, ordered from 'most urban' to 'most rural', based on the dominant classification of their constituent OAs: [[8]](https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf)
 
 1. Urban (Major Conurbation)
 2. Urban (Minor Conurbation)
@@ -138,7 +138,7 @@ The significant disparity in the number of LSOAs belonging to the above, eight c
 | Urban   | 29,591   |
 | Rural   |   6081  |
 
-Such a binary classification is in line with the ONS', likewise, binary classification of Output Areas into either 'Urban' or 'Rural'. OAs are classified as 'Urban' if the broader area within which the OA is found has a population of over 10,000; all other OAs are classified as 'Rural'. [[10]](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification)
+Such a binary classification is in line with the ONS', likewise, binary classification of Output Areas into either 'Urban' or 'Rural'. OAs are classified as 'Urban' if the broader area within which the OA is found has a population of over 10,000; all other OAs are classified as 'Rural' [[9]](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification).
 
 Additionally, rurality is a variable included in our analysis in order to see how it intersects with deprivation and ethnic demography. The relative level of rurality or urbanity, made explicit by the four separate categories for each, is therefore unimportant for our concerns. Using a binary classification in place of the eight categories, thus, increases the reliability of our results whilst also simplifying our analysis.
 
@@ -146,7 +146,7 @@ The most important reason to use a binary classification, however, is due to the
 
 #### Changes to LSOAs 2011-2021
 
-First, several LSOAs had their boundaries modified. More importantly, between 2011 and 2021, an additional 919 LSOAs were created. The rationale for both of these changes was to ensure that population and household thresholds were maintained across all LSOAs. [[11]](https://www.ons.gov.uk/methodology/geography/ukgeographies/statisticalgeographies)
+First, several LSOAs had their boundaries modified. More importantly, between 2011 and 2021, an additional 919 LSOAs were created. The rationale for both of these changes was to ensure that population and household thresholds were maintained across all LSOAs [[10]](https://www.ons.gov.uk/methodology/geography/ukgeographies/statisticalgeographies).
 
 Within this decade, we expect several LSOAs to have changed in terms of their classification as per the RUC 2011, i.e., their membership of one of the eight categories. For example, an LSOA that belonged to the 'Urban city and town' category may have been 'promoted' to 'Urban minor conurbation' due to increasing urbanisation. Without RUC data from 2021, we cannot give a definite value for the number of LSOAs affected in this way. 
 
@@ -209,9 +209,9 @@ The below chloropleth map visualises the percentage of households deprived in at
 
 ![Deprivation Map](./Images/map_deprived.png)
 
-The geospatial visualisation reveals clear patterns of household deprivation across England and Wales. Major urban centres, particularly in northern England, show notably higher deprivation levels (orange to red colouring). London displays a distinct pattern with higher deprivation concentrated in its eastern regions, while its western areas show lower deprivation levels (green colouring) - a divide that has considerably diminished in its intensity in recent years [[12]](https://centreforlondon.org/wp-content/uploads/2016/08/CFLJ3887-Inside-out-inequality_12.125_WEB.pdf). The Welsh Valleys and several coastal regions, particularly along the east coast, exhibit concentrated areas of higher deprivation. This coastal pattern reflects challenges faced by British seaside towns, including seasonal employment and poor transport connectivity, as highlighted in parliamentary research [[13]]((https://publications.parliament.uk/pa/ld201719/ldselect/ldseaside/320/320.pdf)
+The geospatial visualisation reveals clear patterns of household deprivation across England and Wales. Major urban centres, particularly in northern England, show notably higher deprivation levels (orange to red colouring). London displays a distinct pattern with higher deprivation concentrated in its eastern regions, while its western areas show lower deprivation levels (green colouring) - a divide that has considerably diminished in its intensity in recent years [[11]](https://centreforlondon.org/wp-content/uploads/2016/08/CFLJ3887-Inside-out-inequality_12.125_WEB.pdf). The Welsh Valleys and several coastal regions, particularly along the east coast, exhibit concentrated areas of higher deprivation. This coastal pattern reflects challenges faced by British seaside towns, including seasonal employment and poor transport connectivity, as highlighted in parliamentary research [[12]]((https://publications.parliament.uk/pa/ld201719/ldselect/ldseaside/320/320.pdf)
 
-In contrast, large swaths of rural England, especially in the south and central regions, demonstrate consistently lower deprivation levels. This pattern contributes to the well-documented north-south divide in England, where northern regions generally experience higher levels of deprivation and poorer socioeconomic outcomes [[14]](https://www.ippr.org/research/publications/state-of-the-north-2024). However, the visualisation shows significant local variations, particularly around major northern cities, suggesting that the relationship between geography and deprivation is not straightforward. The presence of both highly deprived and affluent areas within close proximity, particularly in urban settings, indicates the localised nature of deprivation and the importance of analysing patterns at the LSOA level.
+In contrast, large swaths of rural England, especially in the south and central regions, demonstrate consistently lower deprivation levels. This pattern contributes to the well-documented north-south divide in England, where northern regions generally experience higher levels of deprivation and poorer socioeconomic outcomes [[13]](https://www.ippr.org/research/publications/state-of-the-north-2024). However, the visualisation shows significant local variations, particularly around major northern cities, suggesting that the relationship between geography and deprivation is not straightforward. The presence of both highly deprived and affluent areas within close proximity, particularly in urban settings, indicates the localised nature of deprivation and the importance of analysing patterns at the LSOA level.
 
 ### Ethnicity
 Content for Ethnicity.
@@ -295,29 +295,27 @@ Content for Conclusion.
 [2] Oxford Consultants for Social Inclusion (OCSI) (2019). *LSOAs, LEPs, and Lookups: A Beginner’s Guide to Statistical Geographies*. Available at: 
 [https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/](https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/)
 
-[3] Royal Borough of Kensington and Chelsea (2007). *Demographics and Child Deprivation*. Available at: [https://www.rbkc.gov.uk/pdf/Demographics_childdeprivation.pdf](https://www.rbkc.gov.uk/pdf/Demographics_childdeprivation.pdf)
+[3] Office for National Statistics (ONS) (2021). *Household Deprivation - Census 2021 Variables by Topic*. Available at: [https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/demographyvariablescensus2021/householddeprivation](https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/demographyvariablescensus2021/householddeprivation)
 
-[4] Office for National Statistics (ONS) (2021). *Household Deprivation - Census 2021 Variables by Topic*. Available at: [https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/demographyvariablescensus2021/householddeprivation](https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/demographyvariablescensus2021/householddeprivation)
+[4] Office for National Statistics (ONS) (2021). *Ethnic Group, National Identity, and Religion*. Available at: [https://www.ons.gov.uk/methodology/classificationsandstandards/measuringequality/ethnicgroupnationalidentityandreligion](https://www.ons.gov.uk/methodology/classificationsandstandards/measuringequality/ethnicgroupnationalidentityandreligion)
 
-[5] Office for National Statistics (ONS) (2021). *Ethnic Group, National Identity, and Religion*. Available at: [https://www.ons.gov.uk/methodology/classificationsandstandards/measuringequality/ethnicgroupnationalidentityandreligion](https://www.ons.gov.uk/methodology/classificationsandstandards/measuringequality/ethnicgroupnationalidentityandreligion)
-
-[6] Office for National Statistics (ONS) (2023). *Ethnic group differences in health, employment, education and housing shown in England and Wales' Census 2021*. Available at:
+[5] Office for National Statistics (ONS) (2023). *Ethnic group differences in health, employment, education and housing shown in England and Wales' Census 2021*. Available at:
 [https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/articles/ethnicgroupdifferencesinhealthemploymenteducationandhousingshowninenglandandwalescensus2021/2023-03-15](https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/articles/ethnicgroupdifferencesinhealthemploymenteducationandhousingshowninenglandandwalescensus2021/2023-03-15)
 
-[7] Li, Y., & Heath, A. (2018). *Persisting disadvantages: A study of labour market dynamics of ethnic unemployment and earnings in the UK (2009–2015)*. *Journal of Ethnic and Migration Studies*, 46(5), 857–878. Available at: [https://doi.org/10.1080/1369183X.2018.1539241](https://doi.org/10.1080/1369183X.2018.1539241)
+[6] Li, Y., & Heath, A. (2018). *Persisting disadvantages: A study of labour market dynamics of ethnic unemployment and earnings in the UK (2009–2015)*. *Journal of Ethnic and Migration Studies*, 46(5), 857–878. Available at: [https://doi.org/10.1080/1369183X.2018.1539241](https://doi.org/10.1080/1369183X.2018.1539241)
 
-[8] Department for Education (2010). *Improving the Outcomes for Gypsy, Roma and Traveller Pupils: Final Report*. Available at: [https://assets.publishing.service.gov.uk/media/5a7a4459ed915d1a6421c3e4/DFE-RR043.pdf](https://assets.publishing.service.gov.uk/media/5a7a4459ed915d1a6421c3e4/DFE-RR043.pdf)
+[7] Department for Education (2010). *Improving the Outcomes for Gypsy, Roma and Traveller Pupils: Final Report*. Available at: [https://assets.publishing.service.gov.uk/media/5a7a4459ed915d1a6421c3e4/DFE-RR043.pdf](https://assets.publishing.service.gov.uk/media/5a7a4459ed915d1a6421c3e4/DFE-RR043.pdf)
 
-[9] Department for Environment, Food & Rural Affairs (DEFRA) (2011). *Rural-Urban Classification 2011: User Guide*. Available at: [https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf](https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf)
+[8] Department for Environment, Food & Rural Affairs (DEFRA) (2011). *Rural-Urban Classification 2011: User Guide*. Available at: [https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf](https://assets.publishing.service.gov.uk/media/5a7cab23e5274a38e5756044/RUC11user_guide_28_Aug.pdf)
 
-[10] Office for National Statistics (ONS) (2016) *2011 Rural/Urban Classification*. Available at:
+[9] Office for National Statistics (ONS) (2016) *2011 Rural/Urban Classification*. Available at:
 [https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification](https://www.ons.gov.uk/methodology/geography/geographicalproducts/ruralurbanclassifications/2011ruralurbanclassification)
 
-[11] Office for National Statistics (ONS) (2021) *Statistical Geographies*. Available at:
+[10] Office for National Statistics (ONS) (2021) *Statistical Geographies*. Available at:
 [https://www.ons.gov.uk/methodology/geography/ukgeographies/statisticalgeographies](https://www.ons.gov.uk/methodology/geography/ukgeographies/statisticalgeographies)
 
-[12] Centre for London (2015). *Inside Out: The New Geography of Wealth and Poverty in London*. Available at: [https://centreforlondon.org/wp-content/uploads/2016/08/CFLJ3887-Inside-out-inequality_12.125_WEB.pdf](https://centreforlondon.org/wp-content/uploads/2016/08/CFLJ3887-Inside-out-inequality_12.125_WEB.pdf)
+[11] Centre for London (2015). *Inside Out: The New Geography of Wealth and Poverty in London*. Available at: [https://centreforlondon.org/wp-content/uploads/2016/08/CFLJ3887-Inside-out-inequality_12.125_WEB.pdf](https://centreforlondon.org/wp-content/uploads/2016/08/CFLJ3887-Inside-out-inequality_12.125_WEB.pdf)
 
-[13] House of Lords Select Committee (2019). *The Future of Seaside Towns*. Available at: [https://publications.parliament.uk/pa/ld201719/ldselect/ldseaside/320/320.pdf](https://publications.parliament.uk/pa/ld201719/ldselect/ldseaside/320/320.pdf)
+[12] House of Lords Select Committee (2019). *The Future of Seaside Towns*. Available at: [https://publications.parliament.uk/pa/ld201719/ldselect/ldseaside/320/320.pdf](https://publications.parliament.uk/pa/ld201719/ldselect/ldseaside/320/320.pdf)
 
-[14] Institute for Public Policy Research (IPPR) North (2023). *State of the North 2024: Overcoming Regional Inequalities*. Available at: [https://www.ippr.org/research/publications/state-of-the-north-2024](https://www.ippr.org/research/publications/state-of-the-north-2024)
+[13] Institute for Public Policy Research (IPPR) North (2023). *State of the North 2024: Overcoming Regional Inequalities*. Available at: [https://www.ippr.org/research/publications/state-of-the-north-2024](https://www.ippr.org/research/publications/state-of-the-north-2024)
