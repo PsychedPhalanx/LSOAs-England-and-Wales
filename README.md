@@ -205,8 +205,13 @@ The plot shows the percentage of households experiencing deprivation in at least
 
 The distribution exhibits a notable positive skew, with a longer tail extending towards higher deprivation levels. This skewness indicates that while most areas cluster around moderate levels of deprivation, there are some areas experiencing particularly high levels of household deprivation. Most LSOAs (approximately 80%) fall between 35% and 65% deprivation levels, with relatively few areas showing either very low (<25%) or very high (>75%) deprivation. This concentration around moderate levels suggests that extreme deprivation, while present, is not typical across England and Wales.
 
+The below chloropleth map visualises the percentage of households deprived in at least measure for all LSOA in England and Wales, with colours ranging from green (lower deprivation) through to red (high deprivation).
+
 ![Deprivation Map](./Images/map_deprived.png)
 
+The geospatial visualisation reveals clear patterns of household deprivation across England and Wales. Major urban centres, particularly in northern England, show notably higher deprivation levels (orange to red colouring). London displays a distinct pattern with higher deprivation concentrated in its eastern regions, while its western areas show lower deprivation levels (green colouring) - a divide that has considerably diminished in its intensity in recent years [[12]](https://centreforlondon.org/wp-content/uploads/2016/08/CFLJ3887-Inside-out-inequality_12.125_WEB.pdf). The Welsh Valleys and several coastal regions, particularly along the east coast, exhibit concentrated areas of higher deprivation. This coastal pattern reflects challenges faced by British seaside towns, including seasonal employment and poor transport connectivity, as highlighted in parliamentary research [[13]]((https://publications.parliament.uk/pa/ld201719/ldselect/ldseaside/320/320.pdf)
+
+In contrast, large swaths of rural England, especially in the south and central regions, demonstrate consistently lower deprivation levels. This pattern contributes to the well-documented north-south divide in England, where northern regions generally experience higher levels of deprivation and poorer socioeconomic outcomes [[14]](https://www.ippr.org/research/publications/state-of-the-north-2024). However, the visualisation shows significant local variations, particularly around major northern cities, suggesting that the relationship between geography and deprivation is not straightforward. The presence of both highly deprived and affluent areas within close proximity, particularly in urban settings, indicates the localised nature of deprivation and the importance of analysing patterns at the LSOA level.
 
 ### Ethnicity
 Content for Ethnicity.
@@ -310,3 +315,9 @@ Content for Conclusion.
 
 [11] Office for National Statistics (ONS) (2021) *Statistical Geographies*. Available at:
 [https://www.ons.gov.uk/methodology/geography/ukgeographies/statisticalgeographies](https://www.ons.gov.uk/methodology/geography/ukgeographies/statisticalgeographies)
+
+[12] Centre for London (2015). *Inside Out: The New Geography of Wealth and Poverty in London*. Available at: [https://centreforlondon.org/wp-content/uploads/2016/08/CFLJ3887-Inside-out-inequality_12.125_WEB.pdf](https://centreforlondon.org/wp-content/uploads/2016/08/CFLJ3887-Inside-out-inequality_12.125_WEB.pdf)
+
+[13] House of Lords Select Committee (2019). *The Future of Seaside Towns*. Available at: [https://publications.parliament.uk/pa/ld201719/ldselect/ldseaside/320/320.pdf](https://publications.parliament.uk/pa/ld201719/ldselect/ldseaside/320/320.pdf)
+
+[14] Institute for Public Policy Research (IPPR) North (2023). *State of the North 2024: Overcoming Regional Inequalities*. Available at: [https://www.ippr.org/research/publications/state-of-the-north-2024](https://www.ippr.org/research/publications/state-of-the-north-2024)
